@@ -10,7 +10,7 @@ module.exports = function (app) {
     {
       name: { type: String, required: true },
       password:{type:String,required:true },
-      nickname:{type:String},
+      nickname:{type:String, default:null},
       imageurl:{type:String}
     }
   );
